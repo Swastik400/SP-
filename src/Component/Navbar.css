@@ -1,13 +1,11 @@
 :root {
-  --nav-bg: rgba(18, 115, 201, 0.9);
-  --nav-text: #ffffff;
+  --nav-text: #20aac6;
   --nav-hover: #002671;
-  --nav-active: #ffffff;
-  --nav-shadow: rgba(0, 0, 0, 0.15);
+  --nav-active: #ad1111;
+  
   --nav-padding: 1rem;
   --nav-transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   --nav-font: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  --nav-border: rgba(255, 255, 255, 0.1);
 }
 
 * {
@@ -152,8 +150,3 @@ nav a:active {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --nav-shadow: rgba(0, 0, 0, 0.25);
-  }
-}

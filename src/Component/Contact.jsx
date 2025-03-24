@@ -9,14 +9,49 @@ const Contact = () => {
       <section className="welcome-section">
         <h2>About This</h2>
         <p>
-          Thsi is just normal home page with some text. We are dedicated to providing exceptional services and innovative solutions
-          to meet all your needs. Our team of experts works tirelessly to ensure
+          This is just normal home page with some text. We are dedicated to providing exceptional services and innovative solutions
+          to meet all your needs. Our team of experts works tirelessly to ensure the highest quality of service for our clients.
         </p>
       </section>
 
       <section className="mission-section">
         <h2>Our Mission</h2>
-       <img src="https://imgs.search.brave.com/lulMf4iSSkTPIBUQHbzM3Zjac2Yq2a7EeJUvW22y02o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjY2/MzMxOS9waG90by9n/ZXJtYW4tZGljdGF0/b3ItYWRvbGYtaGl0/bGVyLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1vVFM0aV9T/d0RCS2IxS0F1Tm5C/Si1kOEZGSHllWDMy/YlNqUnRWeFZWVEZN/PQ" alt="" />
+        <p>
+          Our mission is to deliver outstanding value through innovative solutions and exceptional customer service. 
+          We strive to exceed expectations and create lasting relationships with our clients.
+        </p>
+      </section>
+
+      <section className="contact-form">
+        <h2>Get in Touch</h2>
+        <form>
+          <div className="form-group">
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
+          </div>
+          
+          <div className="form-group">
+            <label htmlFor="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" />
+          </div>
+          
+          <div className="form-group">
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your message here"></textarea>
+          </div>
+          
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <section className="contact-info">
+        <h2>Contact Information</h2>
+        <div className="info-details">
+          <p><strong>Address:</strong> Rai University, Gujarat, India</p>
+          <p><strong>Email:</strong> contact@example.com</p>
+          <p><strong>Phone:</strong> (+91) 123-4567</p>
+          <p><strong>Hours:</strong> Monday - Friday: 9:00 AM - 5:00 PM</p>
+        </div>
       </section>
     </div>
   );
